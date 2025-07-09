@@ -30,6 +30,7 @@ import projectImage3 from "./assets/projects/project3.png";
 import projectImage4 from "./assets/projects/project4.png";
 import projectImage5 from "./assets/projects/project5.png";
 import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage10 from "./assets/projects/project10.png";
 //Education Images
 import srm from "./assets/icons/srm.png";
 import usc from "./assets/icons/USC.png";
@@ -49,21 +50,21 @@ export const personalDetails = {
   name: "Aanandhi Sonduri Panthangi",
   img: Aanandhi,
   about: `
-  
-  Hi, I’m a graduate student in Computer Science at USC, set to graduate in May 2025, and I’m passionate about technology and innovation. As I navigate through my Master's journey, I’m diving deep into full-stack development and software engineering, eager to apply my skills in the professional world.
+I’m a driven Software Engineer specializing in Full Stack and Frontend development, with a deep passion for building AI-powered web applications that solve real-world problems. A USC Computer Science graduate, I combine cutting-edge AI technologies like large language models and vector search with scalable backend systems and sleek, responsive user interfaces.
 
-I thrive on transforming complex problems into user-friendly applications and systems, driven by a solid foundation in programming, machine learning, and web development. I’m particularly excited about roles that challenge me and allow me to contribute to cutting-edge projects.
+I thrive at the intersection of creativity and technology—designing intuitive, seamless experiences backed by intelligent, efficient code. Whether crafting end-to-end solutions in fast-paced startups or contributing to complex, high-traffic enterprise systems, I bring ownership, adaptability, and a growth mindset to every project.
 
-Currently, I’m actively seeking entry-level opportunities where I can grow, learn, and make a tangible impact. Let’s connect and explore how I can bring value to your team!
+My mission is to leverage AI and modern web tech to deliver innovative, impactful products that elevate user experiences and drive meaningful change.
 `,
 };
+
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/aanandhi-sonduri-a814a31a4/",
   github: "https://github.com/Aanandhi-sonduri",
   twitter: "https://twitter.com/",
-  resume: "https://drive.google.com/file/d/1wmAnNg8afWWXMKF53ZmA2z8iJZVqnAru/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1m83gjpDsH94eGMTxFB7qnF0bj4WOOi9X/view?usp=sharing",
 
 };
 
@@ -117,6 +118,10 @@ export const eduDetails = [
       "Database Systems",
       "Web Technologies",
       "Machine Learning for Data Science",
+      "Natural Language Processing",
+      "Information Retrieval",
+      "Applied Cryptography",
+
     ],
   },
   {
@@ -159,18 +164,33 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "BigBrain Application",
+    description: `Developed a smart document management platform that allows users to upload files securely, take notes, and access their content instantly with seamless authentication. Utilized advanced vector search powered by Convex and Hugging Face embeddings to deliver highly relevant and context-sensitive information from documents. Integrated an AI-driven conversational interface and summarization tools through GROQ API, enabling users to interact naturally with their data and quickly extract key points. This project highlights my ability to combine cutting-edge AI technologies with modern web frameworks to create intuitive and powerful productivity tools.`,
+    techstack: "Next.js, React, ShadCN, Hugging Face, GROQ API, Clerk, Convex",
+
+
+
+  }, 
+  {
+    title: "Real-Time Stock Trading Platform",
+    image: projectImage1,
+    description: `Built a user-friendly web and iOS app that lets people search for stocks, track their portfolio, and get live updates on prices, news, and charts. Using APIs from Finnhub and Polygon AI, the app provides real-time stock information to help users stay informed. It also includes a simulated trading feature where users can buy and sell stocks with a virtual wallet and watch their portfolio grow. The app stores all data securely in MongoDB, ensuring everything updates quickly and smoothly. This project combines modern tech to make stock trading easy and fun.`,
+    techstack: "React, JavaScript, Node.js, MongoDB, GCP, SwiftUI, Bootstrap",
+  },
+  {
+    title:"Medgaurd - Secure Decentralized EHR Audit System ",
+    image: projectImage10,
+    description: `A secure web-based audit logging system for electronic health records (EHRs) using React and Flask. The system allows patients and auditors to view access logs while preserving privacy and ensuring tamper detection. Access is authenticated via role-based login, and all audit entries include time, user ID, and action type. To ensure immutability and decentralization, I integrated Ethereum-based blockchain logging, so any unauthorized changes to audit data can be detected. The system supports secure queries, encrypted storage, and a clear UI that allows users to track who accessed their health data and when—enabling transparency and accountability.`,
+    techstack: "React, Flask, MongoDB, Ethereum",
+
+  },
+  {
     title: "ExploreEase – AI Travel Planner",
     image: projectImage5,
     description: `ExploreEase is an intelligent travel assistant designed to simplify trip planning through real-time conversational AI. Built with Next.js and GROQ API, it enables users to craft personalized itineraries effortlessly. By integrating Clerk, ExploreEase ensures a secure and seamless authentication experience, allowing users to log in and manage their sessions with ease. The chatbot is fine-tuned with a structured system prompt, ensuring it delivers accurate and relevant travel recommendations.`,
     techstack: "React, Next.js, GROQ API, Clerk, JavaScript, Vercel",
     previewLink: "https://explore-ease-psi.vercel.app/",
     githubLink: "https://github.com/Aanandhi-sonduri/ExploreEase",
-  },
-  {
-    title: "Dynamic Stock Search Application",
-    image: projectImage1,
-    description: `Developed a dynamic stock search application for both web and mobile platforms. Using React.js for the web frontend and Node.js for the backend, I ensured a responsive, interactive interface and robust data processing. MongoDB enabled efficient, synchronized data storage across platforms. The iOS app, built with SwiftUI, provided a seamless user experience with real-time stock data integration via Finhub API and Polygon API. Hosting on Google Cloud Platform (GCP) optimized performance and load times, while responsive web design (RWD) ensured a consistent experience across all devices.`,
-    techstack: "React, JavaScript, NodeJs, MongoDB, GCP, RWD",
   },
   {
     title: "Real-Time Color Detection Algorithm: Precision in RGB Identification with Python",
