@@ -134,6 +134,7 @@ export const eduDetails = [
       "Database Management Systems",
       "Operating Systems",
       "Object Oriented Programming",
+      "Software Architecture",
     ],
     Duration: "July 2018 - May 2022",
   },
