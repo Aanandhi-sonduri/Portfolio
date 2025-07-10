@@ -181,6 +181,8 @@ export const projectDetails = [
     image: projectImage10,
     description: `A secure web-based audit logging system for electronic health records (EHRs) using React and Flask. The system allows patients and auditors to view access logs while preserving privacy and ensuring tamper detection. Access is authenticated via role-based login, and all audit entries include time, user ID, and action type. To ensure immutability and decentralization, I integrated Ethereum-based blockchain logging, so any unauthorized changes to audit data can be detected. The system supports secure queries, encrypted storage, and a clear UI that allows users to track who accessed their health data and when—enabling transparency and accountability.`,
     techstack: "React, Flask, MongoDB, Ethereum",
+    previewLink: "https://med-gaurd.vercel.app/",
+    githubLink: "https://github.com/aanandhisonduri/MedGaurd"
 
   },
   {
