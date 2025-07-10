@@ -80,7 +80,7 @@ function Home() {
         </h4>
         <h4
           ref={h12}
-          className="text-lg bg-clip-text bg-gradient text-transparent md:text-xl xl:text-2xl xl:leading-tight font-bold"
+          className="text-lg text-white md:text-xl xl:text-2xl xl:leading-tight font-bold"
         >
           {name}
         </h4>
@@ -92,7 +92,7 @@ function Home() {
         </h4>
         <h1
           ref={textRef} // Attach the reference here
-          className="text-sm md:text-base xl:text-lg mt-4"
+          className="text-sm md:text-base xl:text-lg mt-4  text-dark-heading dark:text-white"
         >
           I’m glad you’re here. Explore my projects and see how I tackle tech challenges with passion and expertise. From my work experience to the skills I've honed, everything is here to showcase the innovative solutions I’m excited about.
           <br /><br />
