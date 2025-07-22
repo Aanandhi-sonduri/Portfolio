@@ -31,6 +31,7 @@ import projectImage4 from "./assets/projects/project4.png";
 import projectImage5 from "./assets/projects/project5.png";
 import projectImage6 from "./assets/projects/project6.jpg";
 import projectImage10 from "./assets/projects/project10.png";
+import projectImage11 from "./assets/projects/project11.png";
 //Education Images
 import srm from "./assets/icons/srm.png";
 import usc from "./assets/icons/USC.png";
@@ -167,15 +168,23 @@ export const projectDetails = [
     title: "BigBrain Application",
     description: `Developed a smart document management platform that allows users to upload files securely, take notes, and access their content instantly with seamless authentication. Utilized advanced vector search powered by Convex and Hugging Face embeddings to deliver highly relevant and context-sensitive information from documents. Integrated an AI-driven conversational interface and summarization tools through GROQ API, enabling users to interact naturally with their data and quickly extract key points. This project highlights my ability to combine cutting-edge AI technologies with modern web frameworks to create intuitive and powerful productivity tools.`,
     techstack: "Next.js, React, ShadCN, Hugging Face, GROQ API, Clerk, Convex",
-
-
-
   }, 
+  {
+    title:"ListenLearn AI",
+    image: projectImage11,
+    description: `ListenLearn AI is an innovative web application designed to enhance how users engage with podcast content. By leveraging advanced AI technologies, the app allows users to effortlessly upload podcast audio files and receive accurate transcriptions in real time. Beyond transcription, ListenLearn AI generates concise summaries and extracts key highlights, helping users grasp the core ideas quickly without having to listen to the entire episode.
+
+To deepen learning and retention, the app creates interactive flashcards based on the podcast content, enabling users to review and reinforce important concepts effectively. This comprehensive approach transforms passive podcast listening into an active learning experience.`,
+    techstack:"Next.js, React, Assembly AI, GROQ API, Boostrap",
+    previewLink: "https://listen-learn-ai-uqeq.vercel.app/",
+    githubLink: "https://github.com/aanandhisonduri/ListenLearn-AI"
+  },
   {
     title: "Real-Time Stock Trading Platform",
     image: projectImage1,
     description: `Built a user-friendly web and iOS app that lets people search for stocks, track their portfolio, and get live updates on prices, news, and charts. Using APIs from Finnhub and Polygon AI, the app provides real-time stock information to help users stay informed. It also includes a simulated trading feature where users can buy and sell stocks with a virtual wallet and watch their portfolio grow. The app stores all data securely in MongoDB, ensuring everything updates quickly and smoothly. This project combines modern tech to make stock trading easy and fun.`,
     techstack: "React, JavaScript, Node.js, MongoDB, GCP, SwiftUI, Bootstrap",
+    
   },
   {
     title:"Medgaurd - Secure Decentralized EHR Audit System ",
